@@ -18,9 +18,9 @@ class Top extends PublicController {
 	 */
 	public function index()
 	{
-		$data = array(
+		$data_list = array(
 			'testtext' => "foobar",
 		);
-		$this->load->view('top', $data);
+		$this->view("top", $data_list);
 	}
 }
