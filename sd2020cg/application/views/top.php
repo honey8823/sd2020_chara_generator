@@ -45,16 +45,6 @@
         <!-- /.box-body -->
       </div>
 
-
-
-
-      <?= $testtext ?>
-
-      <p>
-        Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?><br>
-        Memory usage : {memory_usage}
-      </p>
-
     </section>
     <!-- /.content -->
 
